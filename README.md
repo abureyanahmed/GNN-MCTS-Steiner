@@ -1,1 +1,3 @@
-# GNN-MCTS-Steiner
+# Computing Steiner Trees using Graph Neural Network Assisted Monte Carlo Tree Search
+
+Graph neural networks are useful for learning problems, as well as for combinatorial and graph problems such as the Subgraph Isomorphism Problem and the Traveling Salesman Problem. We provide an approach for computing Steiner Trees by combining a graph neural network and Monte Carlo Tree Search. We first train a graph neural network that takes as input a partial solution and proposes a new node to be added as output. This neural network is then used in a Monte Carlo search to compute a Steiner tree. The proposed method consistently outperforms the standard 2-approximation algorithm on many different types of graphs and often finds the optimal solution.
